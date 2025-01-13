@@ -44,14 +44,12 @@ This project leverages sentiment analysis to understand user opinions and trends
 2. Configure Kaggle API:
    Upload your kaggle.json file:
    ```bash
-   mkdir -p ~/.kaggle
-  cp kaggle.json ~/.kaggle/
-  chmod 600 ~/.kaggle/kaggle.json
+   mkdir -p ~/.kaggle cp kaggle.json ~/.kaggle/ chmod 600 ~/.kaggle/kaggle.json
 
 ---
 ## Technologies Used
-Programming Language: Python
-Libraries:
+- Programming Language: Python
+- Libraries:
 numpy, pandas for data manipulation
 nltk for text preprocessing
 scikit-learn for machine learning
